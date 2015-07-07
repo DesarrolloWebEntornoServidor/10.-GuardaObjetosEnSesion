@@ -27,4 +27,11 @@ public class Punto {
     public int getY () {
         return this.y;
     }
+
+	@Override
+	public String toString() {
+		return "Punto [x=" + x + ", y=" + y + "]";
+	}
+    
+    
 }
